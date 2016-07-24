@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-3">
                 <h1 class="page-header">BMI udregner</h1>
                 <ol class="breadcrumb" style="width:300px;">
                 <li class="active">
