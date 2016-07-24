@@ -20,20 +20,20 @@
                 <i class="fa fa-dashboard"></i> Din BMI er: 
         		<?php
         			if(isset($_POST['submit'])) {	 
-            			$hoejde = $_POST['hoejde'];
-            			$vaegt = $_POST['vaegt'];
-            			$bmi = (($vaegt)/($hoejde*$hoejde))*10000;
-            			echo $english_format_number = number_format($bmi,2);
-            								
-            			if($bmi < 18.5){
-            			    echo ". " . "Du er undervægtig";
-            			}
-            			if($bmi > 18.5 && $bmi < 24.9){
-            				echo ". " . "Du er normalvægtig";
-            			}
-            			if($bmi > 24.9){
-            				echo ". " . "Du er overvægtig";
-            			}
+	            			$hoejde = $_POST['hoejde'];
+	            			$vaegt = $_POST['vaegt'];
+	            			$bmi = (($vaegt)/($hoejde*$hoejde))*10000;
+	            			echo $english_format_number = number_format($bmi,2);
+	            								
+	            			if($bmi < 18.5){
+	            			    echo ". " . "Du er undervægtig";
+	            			}
+	            			if($bmi > 18.5 && $bmi < 24.9){
+	            				echo ". " . "Du er normalvægtig";
+	            			}
+	            			if($bmi > 24.9){
+	            				echo ". " . "Du er overvægtig";
+	            			}
         			}
         		?>	
                 </li>
